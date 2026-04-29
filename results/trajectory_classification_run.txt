@@ -1,0 +1,107 @@
+OMNIA-INVARIANCE — trajectory classification verification run
+
+Repository status:
+- Branch: main
+- Working tree: clean
+- Canonical profile format: verified
+- Automatic profile discovery: verified
+- Automatic trajectory classification: verified
+
+================================================================================
+DETECTED PROFILES
+================================================================================
+
+- crypto_invariance_profile.json
+- llm_invariance_profile.json
+- logic_invariance_profile.json
+- physics_invariance_profile.json
+
+================================================================================
+TRAJECTORY CLASSIFICATION RESULTS
+================================================================================
+
+CRYPTO
+----------------------------------------
+classification: rigid-collapse
+
+Observed behavior:
+- high initial coherence
+- threshold-sensitive collapse
+- rapid irreversibility growth
+
+
+LLM
+----------------------------------------
+classification: rigid-collapse
+
+Observed behavior:
+- high apparent coherence
+- progressive instability accumulation
+- rapid collapse after perturbation accumulation
+
+
+LOGIC
+----------------------------------------
+classification: smooth-degradation
+
+Observed behavior:
+- moderate coherence persistence
+- gradual degradation
+- smoother collapse profile
+
+
+PHYSICS
+----------------------------------------
+classification: recovery-dominant
+
+Observed behavior:
+- high early instability
+- strong coherence recovery
+- global structural persistence
+
+
+================================================================================
+SUMMARY
+================================================================================
+
+crypto       -> rigid-collapse
+llm          -> rigid-collapse
+logic        -> smooth-degradation
+physics      -> recovery-dominant
+
+================================================================================
+INTERPRETATION
+================================================================================
+
+The current OMNIA-INVARIANCE framework is now capable of:
+
+- automatically discovering standardized profiles
+- comparing cross-domain trajectories
+- generating trajectory visualizations
+- assigning preliminary trajectory classes
+
+The current classification system remains heuristic and experimental.
+
+However, trajectory classes now emerge operationally from profile behavior rather than manual interpretation alone.
+
+================================================================================
+BOUNDARY
+================================================================================
+
+- These classes are preliminary.
+- They do not define universal laws.
+- They may depend on perturbation design and scaling.
+- Additional validation is required.
+
+================================================================================
+CONCLUSION
+================================================================================
+
+OMNIA-INVARIANCE now operates as an executable framework for:
+
+- cross-domain structural comparison
+- trajectory visualization
+- preliminary trajectory classification
+- structural degradation analysis
+
+under controlled perturbation.
