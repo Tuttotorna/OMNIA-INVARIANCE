@@ -1,0 +1,14 @@
+{
+  "token_layer": {
+    "Omega": 0.6666666666666666,
+    "IRI": 0.33333333333333337
+  },
+  "reasoning_layer": {
+    "Omega": 0.5,
+    "IRI": 0.5
+  },
+  "answer_layer": {
+    "Omega": 0.0,
+    "IRI": 1.0
+  }
+}
