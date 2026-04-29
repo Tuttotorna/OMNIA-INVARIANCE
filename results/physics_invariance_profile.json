@@ -1,0 +1,27 @@
+{
+  "cartesian_coordinates": {
+    "T_delta": 1345,
+    "Omega": 0.33353144232183113,
+    "IRI": 1.9982180781477268
+  },
+  "pairwise_distances": {
+    "T_delta": 827,
+    "Omega": 0.14553109791625538,
+    "IRI": 5.871383603354944
+  },
+  "total_energy": {
+    "T_delta": -1,
+    "Omega": 0.7443741914232316,
+    "IRI": 0.3434103593624276
+  },
+  "angular_momentum": {
+    "T_delta": -1,
+    "Omega": 0.9999999999999933,
+    "IRI": 6.7288397076481484e-15
+  },
+  "center_of_mass": {
+    "T_delta": -1,
+    "Omega": 0.9999666677777395,
+    "IRI": 3.333333333474693e-05
+  }
+}
