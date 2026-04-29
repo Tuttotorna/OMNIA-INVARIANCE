@@ -1,0 +1,53 @@
+OMNIA-INVARIANCE — latest Colab verification run
+
+Repository status:
+- Branch: main
+- Working tree: clean
+- Expected files: all found
+- Comparison script: executed successfully
+
+Verified files:
+- results/crypto_invariance_profile.json
+- results/cross_domain_summary.json
+- docs/CROSS_DOMAIN_METROLOGY_FRAME.md
+- docs/CANONICAL_TRAJECTORY_FORMAT.md
+- domains/crypto/README.md
+- docs/CRYPTO_DOMAIN_OBSERVATIONS.md
+- examples/compare_domains.py
+
+Cross-domain summary:
+
+physics:
+- mean Ω: 0.644
+- mean IRI: 1.65
+- notes:
+  - initial instability followed by recovery
+  - global structure survives perturbation
+
+logic:
+- mean Ω: 0.619
+- mean IRI: 0.393
+- notes:
+  - moderate coherence persistence
+  - partial degradation under symbolic perturbation
+
+crypto:
+- mean Ω: 0.598
+- mean IRI: 0.436
+- collapse point: 3
+- Ω trajectory: 0.91 -> 0.82 -> 0.67 -> 0.41 -> 0.18
+- IRI trajectory: 0.02 -> 0.11 -> 0.39 -> 0.72 -> 0.94
+- notes:
+  - high initial rigidity
+  - rapid collapse after perturbation threshold
+
+Canonical observation:
+Different domains appear to generate structurally comparable stability and collapse trajectories under controlled transformation.
+
+Boundary:
+- This does not imply semantic equivalence between domains.
+- This does not prove a universal law.
+- This repository measures structural behavior under perturbation.
+
+Conclusion:
+The OMNIA-INVARIANCE repository now contains a verified cross-domain comparison layer across physics, logic, and crypto structural profiles.
