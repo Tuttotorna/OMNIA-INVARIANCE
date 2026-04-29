@@ -1,0 +1,151 @@
+OMNIA-INVARIANCE — latest Colab verification run
+
+Repository status:
+- Branch: main
+- Working tree: clean
+- Canonical profile format: verified
+- Automatic profile discovery: verified
+- Cross-domain comparison script: executed successfully
+
+Detected profiles:
+- crypto_invariance_profile.json
+- llm_invariance_profile.json
+- logic_invariance_profile.json
+- physics_invariance_profile.json
+
+================================================================================
+CROSS-DOMAIN RESULTS
+================================================================================
+
+CRYPTO
+----------------------------------------
+mean Ω  : 0.598
+mean IRI: 0.436
+collapse point: 3
+
+Ω trajectory:
+0.91 -> 0.82 -> 0.67 -> 0.41 -> 0.18
+
+IRI trajectory:
+0.02 -> 0.11 -> 0.39 -> 0.72 -> 0.94
+
+behavior:
+- high initial rigidity followed by rapid collapse after perturbation accumulation
+
+notes:
+- local structure remains stable initially
+- collapse accelerates after threshold crossing
+- irreversibility increases sharply near collapse region
+
+
+LLM
+----------------------------------------
+mean Ω  : 0.602
+mean IRI: 0.408
+collapse point: 3
+
+Ω trajectory:
+0.92 -> 0.81 -> 0.63 -> 0.44 -> 0.21
+
+IRI trajectory:
+0.04 -> 0.12 -> 0.31 -> 0.66 -> 0.91
+
+behavior:
+- high apparent coherence with progressive instability under perturbation accumulation
+
+notes:
+- surface coherence remains stable initially
+- degradation accelerates after accumulated perturbation
+- irreversibility rises sharply near collapse region
+
+
+LOGIC
+----------------------------------------
+mean Ω  : 0.619
+mean IRI: 0.393
+collapse point: 1
+
+Ω trajectory:
+0.83 -> 0.5 -> 0.5
+
+IRI trajectory:
+0.18 -> 0.5 -> 0.5
+
+behavior:
+- moderate coherence persistence under symbolic degradation
+
+notes:
+- symbolic perturbations reduce coherence progressively
+- partial structural persistence remains after degradation
+- collapse behavior is smoother than the crypto profile
+
+
+PHYSICS
+----------------------------------------
+mean Ω  : 0.644
+mean IRI: 1.65
+collapse point: 1
+
+Ω trajectory:
+0.33 -> 0.15 -> 0.74 -> 1.0 -> 1.0
+
+IRI trajectory:
+2.0 -> 5.9 -> 0.35 -> 0.0 -> 0.0
+
+behavior:
+- initial instability followed by strong recovery and global structural persistence
+
+notes:
+- early perturbations produce high instability
+- coherence recovers sharply after the unstable region
+- global structure survives after perturbation
+
+
+================================================================================
+CANONICAL OBSERVATION
+================================================================================
+
+Different domains appear to generate structurally comparable stability and collapse trajectories under controlled transformation.
+
+Mean Ω values remain relatively close across domains:
+
+- physics: 0.644
+- logic:   0.619
+- llm:     0.602
+- crypto:  0.598
+
+However, IRI behavior differs significantly between domains.
+
+Physics exhibits substantially higher irreversibility dynamics than logic, llm, and crypto.
+
+This suggests that:
+
+- coherence similarity does not imply identical collapse behavior
+- Ω and IRI capture different structural properties
+- cross-domain comparison may reveal both convergence and divergence patterns
+
+
+================================================================================
+BOUNDARY
+================================================================================
+
+- This does not imply semantic equivalence between domains.
+- This does not prove a universal law.
+- This repository measures structural behavior under perturbation.
+- Current observations remain preliminary and require larger validation sets.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+
+OMNIA-INVARIANCE now contains:
+
+- standardized invariance trajectories
+- automatic profile discovery
+- cross-domain comparison
+- canonical trajectory format
+- shared metrological framing
+- executable comparison workflows
+
+The repository now operates as an executable cross-domain structural comparison framework.
