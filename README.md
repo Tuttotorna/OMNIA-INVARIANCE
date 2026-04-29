@@ -1,322 +1,479 @@
 # OMNIA-INVARIANCE
 
+OMNIA-INVARIANCE is an executable cross-domain framework for comparing structural stability and collapse trajectories under controlled perturbation.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19895803.svg)](https://doi.org/10.5281/zenodo.19895803)
+It does not claim that different domains are semantically equivalent.
 
+It does not prove a universal law.
 
-Cross-domain structural stability measurement across representations, perturbations, and invariant layers.
-
-This repository does **not** claim a universal law.
-
-It investigates whether different systems share comparable patterns of local fragility and global stability under controlled perturbation.
+It provides a shared metrological frame for measuring how different systems preserve, lose, recover, or collapse structural coherence when transformed.
 
 ---
 
-## Core question
+## Core Claim
+
+Different domains can be compared through shared structural stability trajectories.
+
+The central question is:
 
 ```text
-what remains structurally stable
-when representation changes
-and perturbation increases?
+How does structure behave under controlled transformation?
+```
 
-
----
-
-Core idea
-
-A system can collapse in one representation while remaining stable in another.
-
-OMNIA-INVARIANCE studies this pattern across domains:
-
-chaotic physics
-
-symbolic logic
-
-language perturbation
-
-numerical structure
-
-synthetic systems
-
-
-The goal is not to explain meaning.
-
-The goal is to measure structural persistence.
-
+OMNIA-INVARIANCE measures that behavior using standardized profiles.
 
 ---
 
-First result — physics invariance profile
+## What this repository does
 
-Source: OMNIA-THREE-BODY
+This repository compares structural trajectories across domains such as:
 
+- physics
+- logic
+- LLM behavior
+- crypto-like structures
 
+Each domain is represented through a canonical invariance profile containing:
 
-Observed physics profile:
+- Ω trajectory
+- IRI trajectory
+- collapse point
+- mean Ω
+- mean IRI
+- structural interpretation
 
-cartesian coordinates
-→ fragile
+The goal is not semantic comparison.
 
-pairwise distances
-→ more fragile
-
-total energy
-→ relatively stable
-
-angular momentum
-→ almost invariant
-
-center of mass
-→ almost invariant
-
-Interpretation:
-
-local trajectory representations collapse,
-while global invariant representations remain structurally stable.
-
+The goal is structural comparison.
 
 ---
 
-Second result — symbolic logic invariance profile
+## What this repository is not
 
+OMNIA-INVARIANCE is not:
 
+- a semantic oracle
+- a proof of universal structure
+- a final theory of reality
+- a replacement for domain science
+- a claim that all systems are the same
+- a claim that Ω is already a universal constant
 
-Observed logic profile:
+It measures structural behavior under perturbation.
 
-token layer
-→ relatively stable
-
-relation layer
-→ partially collapsed
-
-inference layer
-→ partially collapsed
-
-Interpretation:
-
-surface similarity
-does not guarantee
-logical-structural persistence
-
+Interpretation remains separate from measurement.
 
 ---
 
-First cross-domain comparison
+## Canonical Metrics
 
+| Metric | Meaning |
+|---|---|
+| Ω | structural coherence |
+| IRI | irreversibility / non-recoverable structural loss |
+| ΔΩ | variation in coherence |
+| Collapse Point | perturbation step where collapse becomes dominant |
+| Stability Profile | full structural trajectory under transformation |
 
+These metrics are treated as structural signals.
 
-The comparison does not claim that physics and logic are the same system.
-
-It compares the shape of structural stability profiles across representation layers.
-
-Current observation:
-
-different domains
-can show different local/global stability distributions
-under controlled perturbation
-
-
----
-
-Physics profile data
-
-{
-  "cartesian_coordinates": {
-    "T_delta": 1345,
-    "Omega": 0.33353144232183113,
-    "IRI": 1.9982180781477268
-  },
-  "pairwise_distances": {
-    "T_delta": 827,
-    "Omega": 0.14553109791625538,
-    "IRI": 5.871383603354944
-  },
-  "total_energy": {
-    "T_delta": -1,
-    "Omega": 0.7443741914232316,
-    "IRI": 0.3434103593624276
-  },
-  "angular_momentum": {
-    "T_delta": -1,
-    "Omega": 0.9999999999999933,
-    "IRI": 6.7288397076481484e-15
-  },
-  "center_of_mass": {
-    "T_delta": -1,
-    "Omega": 0.9999666677777395,
-    "IRI": 3.333333333474693e-05
-  }
-}
-
+They are not treated as final truth.
 
 ---
 
-Logic profile data
+## Current Standardized Domains
 
-{
-  "token_layer": {
-    "Omega": 0.8571428571428571,
-    "IRI": 0.1428571428571429
-  },
-  "relation_layer": {
-    "Omega": 0.5,
-    "IRI": 0.5
-  },
-  "inference_layer": {
-    "Omega": 0.5,
-    "IRI": 0.5
-  }
-}
+The current multi-domain run includes:
 
+| Domain | mean Ω | mean IRI | Preliminary trajectory class |
+|---|---:|---:|---|
+| Crypto | 0.598 | 0.436 | rigid-collapse |
+| LLM | 0.602 | 0.408 | rigid-collapse |
+| Logic | 0.619 | 0.393 | smooth-degradation |
+| Physics | 0.644 | 1.650 | recovery-dominant |
 
----
+The main observation is:
 
-Cross-domain summary data
+```text
+mean Ω values are relatively close across domains,
+while IRI behavior differs strongly.
+```
 
-{
-  "physics": {
-    "mean_Omega": 0.6446806798878102,
-    "mean_IRI": 1.6426090748396894
-  },
-  "logic": {
-    "mean_Omega": 0.6190476190476191,
-    "mean_IRI": 0.38095238095238093
-  }
-}
+This suggests that:
 
+```text
+coherence persistence != irreversibility behavior
+```
+
+This is the most important current result.
 
 ---
 
-Minimal model
+## Current Trajectories
 
-system
-↓
-representation layers
-↓
-controlled perturbation
-↓
-structural measurement
-↓
-stability profile
-↓
-cross-domain comparison
+### Crypto
 
+```text
+Ω:
+0.91 -> 0.82 -> 0.67 -> 0.41 -> 0.18
 
----
+IRI:
+0.02 -> 0.11 -> 0.39 -> 0.72 -> 0.94
+```
 
-Metrics
+Preliminary interpretation:
 
-Initial metrics:
-
-T_delta — structural divergence time
-
-Omega — residual structural coherence
-
-IRI — irreversibility / accumulated divergence
-
-representation stability profile
-
-invariant persistence score
-
-
+```text
+high initial rigidity followed by rapid collapse after perturbation accumulation
+```
 
 ---
 
-Generated outputs
+### LLM
 
-Running the current demos generates:
+```text
+Ω:
+0.92 -> 0.81 -> 0.63 -> 0.44 -> 0.21
 
+IRI:
+0.04 -> 0.12 -> 0.31 -> 0.66 -> 0.91
+```
+
+Preliminary interpretation:
+
+```text
+high apparent coherence with progressive instability under perturbation accumulation
+```
+
+---
+
+### Logic
+
+```text
+Ω:
+0.83 -> 0.50 -> 0.50
+
+IRI:
+0.18 -> 0.50 -> 0.50
+```
+
+Preliminary interpretation:
+
+```text
+moderate coherence persistence under symbolic degradation
+```
+
+---
+
+### Physics
+
+```text
+Ω:
+0.33 -> 0.15 -> 0.74 -> 1.00 -> 1.00
+
+IRI:
+2.00 -> 5.90 -> 0.35 -> 0.00 -> 0.00
+```
+
+Preliminary interpretation:
+
+```text
+initial instability followed by strong recovery and global structural persistence
+```
+
+---
+
+## Preliminary Trajectory Classes
+
+OMNIA-INVARIANCE currently identifies three experimental trajectory classes.
+
+These are not universal categories.
+
+They are observed structural response patterns.
+
+---
+
+### 1. Rigid-Collapse
+
+Observed in:
+
+- crypto
+- LLM
+
+Typical behavior:
+
+```text
+high initial coherence
+slow early degradation
+threshold-sensitive collapse
+rapid irreversibility growth
+```
+
+---
+
+### 2. Smooth-Degradation
+
+Observed in:
+
+- logic
+
+Typical behavior:
+
+```text
+moderate coherence persistence
+gradual degradation
+limited collapse acceleration
+stable irreversibility growth
+```
+
+---
+
+### 3. Recovery-Dominant
+
+Observed in:
+
+- physics
+
+Typical behavior:
+
+```text
+early instability
+strong recovery
+global structural persistence
+irreversibility normalization
+```
+
+---
+
+## Generated Visual Outputs
+
+The repository includes generated cross-domain plots:
+
+```text
+results/cross_domain_omega.png
+results/cross_domain_iri.png
+```
+
+These plots show:
+
+- Ω trajectories across domains
+- IRI trajectories across domains
+- visible differences between collapse, degradation, and recovery profiles
+
+---
+
+## Repository Structure
+
+```text
+OMNIA-INVARIANCE/
+│
+├── docs/
+│   ├── CANONICAL_TRAJECTORY_FORMAT.md
+│   ├── CROSS_DOMAIN_METROLOGY_FRAME.md
+│   ├── CRYPTO_DOMAIN_OBSERVATIONS.md
+│   ├── MULTI_DOMAIN_RUN_INTERPRETATION.md
+│   └── TRAJECTORY_CLASSES.md
+│
+├── domains/
+│   └── crypto/
+│       └── README.md
+│
+├── examples/
+│   ├── compare_domains.py
+│   ├── plot_cross_domain_trajectories.py
+│   ├── invariance_physics_demo.py
+│   ├── invariance_logic_demo.py
+│   └── invariance_llm_static_demo.py
+│
+├── results/
+│   ├── crypto_invariance_profile.json
+│   ├── llm_invariance_profile.json
+│   ├── logic_invariance_profile.json
+│   ├── physics_invariance_profile.json
+│   ├── cross_domain_summary.json
+│   ├── cross_domain_omega.png
+│   ├── cross_domain_iri.png
+│   └── latest_colab_run.txt
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+---
+
+## Run the Cross-Domain Comparison
+
+From the repository root:
+
+```bash
+python examples/compare_domains.py
+```
+
+This automatically discovers all files matching:
+
+```text
+*_invariance_profile.json
+```
+
+inside:
+
+```text
 results/
-├── physics_invariance_profile.json
-├── physics_invariance_profile.png
-├── logic_invariance_profile.json
-├── logic_invariance_profile.png
-├── cross_domain_comparison.json
-└── cross_domain_comparison.png
+```
 
+and prints the standardized cross-domain comparison.
 
 ---
 
-Run
+## Generate the Cross-Domain Plots
 
-Install dependencies:
+```bash
+python examples/plot_cross_domain_trajectories.py
+```
 
-pip install -r requirements.txt
+This generates:
 
-Run physics profile:
-
-python examples/invariance_physics_demo.py
-
-Run logic profile:
-
-python examples/invariance_logic_demo.py
-
-Run cross-domain comparison:
-
-python examples/cross_domain_comparison.py
-
+```text
+results/cross_domain_omega.png
+results/cross_domain_iri.png
+```
 
 ---
 
-Documentation
+## Canonical Profile Format
 
-Detailed notes:
+Each standardized domain profile follows this structure:
 
-docs/CROSS_DOMAIN_INVARIANCE.md
+```json
+{
+  "domain": "domain_name",
+  "experiment": "experiment_name",
+  "description": "description",
 
+  "omega_trajectory": [],
+  "iri_trajectory": [],
 
----
+  "collapse_point": 0,
 
-Boundary
+  "summary": {
+    "mean_omega": 0.0,
+    "mean_iri": 0.0
+  },
 
-This repository does not claim:
+  "interpretation": {
+    "behavior": "short structural interpretation",
+    "notes": []
+  }
+}
+```
 
-universal consciousness metric
-
-universal instability law
-
-proof of physical ontology
-
-equivalence between unrelated domains
-
-replacement for domain science
-
-prediction of exact future states
-
-
-It is a measurement framework.
-
-
----
-
-Canonical claim
-
-OMNIA-INVARIANCE measures whether structural stability
-is preserved across representation layers and perturbation regimes.
-
+This format makes new domains directly comparable.
 
 ---
 
-Ecosystem
+## Current Supported Workflow
 
-Part of the MB-X.01 / OMNIA ecosystem.
-
-Related repositories:
-
-OMNIA
-OMNIABASE
-OMNIA-THREE-BODY
-OMNIA-LIMIT
-OMNIA-RADAR
-
-Core principle:
-
-measurement != inference != decision
-
+```text
+1. Add or generate a domain invariance profile
+2. Save it as results/<domain>_invariance_profile.json
+3. Run examples/compare_domains.py
+4. Generate plots with examples/plot_cross_domain_trajectories.py
+5. Interpret trajectory behavior using docs/TRAJECTORY_CLASSES.md
+```
 
 ---
 
-Author
+## Important Boundary
 
-Massimiliano Brighindi
-Project: MB-X.01
+The current results are preliminary.
+
+They support this claim:
+
+```text
+Different domains can be represented and compared
+through shared structural stability trajectories.
+```
+
+They do not yet prove:
+
+```text
+a universal structural law
+```
+
+Further validation requires:
+
+- larger datasets
+- more domains
+- repeated perturbation families
+- normalized IRI scaling
+- statistical trajectory comparison
+- independent replication
+
+---
+
+## Relationship to OMNIA
+
+OMNIA is the structural measurement engine.
+
+OMNIA-INVARIANCE focuses on one specific use:
+
+```text
+measuring structural behavior under transformation
+```
+
+In simple terms:
+
+```text
+OMNIA measures.
+OMNIA-INVARIANCE compares trajectories.
+```
+
+---
+
+## Current Research Direction
+
+The next logical direction is trajectory classification automation.
+
+Future work may include:
+
+- automatic trajectory class detection
+- trajectory distance metrics
+- domain clustering
+- collapse threshold comparison
+- normalized IRI scaling
+- larger cross-domain benchmark sets
+
+The long-term goal is not to create another domain-specific metric.
+
+The goal is to build a structural comparison layer that can operate across domains.
+
+---
+
+## Summary
+
+OMNIA-INVARIANCE is an executable framework for cross-domain structural trajectory comparison.
+
+Its current strongest conclusion is methodological:
+
+```text
+shared structural trajectory comparison is possible
+```
+
+The current data show:
+
+```text
+mean Ω values are relatively close across domains,
+while IRI behavior separates domains more strongly.
+```
+
+This makes OMNIA-INVARIANCE a framework for studying:
+
+- structural persistence
+- collapse dynamics
+- recovery behavior
+- irreversibility
+- cross-domain stability profiles
+
+under controlled transformation.
+
