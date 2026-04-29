@@ -1,0 +1,43 @@
+{
+  "framework": "OMNIA-INVARIANCE",
+  "description": "Cross-domain structural stability comparison",
+
+  "domains": {
+
+    "physics": {
+      "mean_omega": 0.644,
+      "mean_iri": 1.65,
+      "notes": [
+        "initial instability followed by recovery",
+        "global structure survives perturbation"
+      ]
+    },
+
+    "logic": {
+      "mean_omega": 0.619,
+      "mean_iri": 0.393,
+      "notes": [
+        "moderate coherence persistence",
+        "partial degradation under symbolic perturbation"
+      ]
+    },
+
+    "crypto": {
+      "mean_omega": 0.598,
+      "mean_iri": 0.436,
+      "notes": [
+        "high initial rigidity",
+        "rapid collapse after perturbation threshold"
+      ]
+    }
+
+  },
+
+  "canonical_observation": "Different domains appear to generate structurally comparable stability and collapse trajectories under controlled transformation.",
+
+  "boundary": [
+    "This does not imply semantic equivalence between domains.",
+    "This does not prove a universal law.",
+    "This repository measures structural behavior under perturbation."
+  ]
+}
