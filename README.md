@@ -1,5 +1,9 @@
 # OMNIA-INVARIANCE
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19895803.svg)](https://doi.org/10.5281/zenodo.19895803)
+
+
 Cross-domain structural stability measurement across representations, perturbations, and invariant layers.
 
 This repository does **not** claim a universal law.
