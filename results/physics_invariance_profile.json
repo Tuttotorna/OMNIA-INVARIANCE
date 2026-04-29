@@ -1,27 +1,37 @@
 {
-  "cartesian_coordinates": {
-    "T_delta": 1345,
-    "Omega": 0.33353144232183113,
-    "IRI": 1.9982180781477268
+  "domain": "physics",
+  "experiment": "physics_invariance_profile",
+  "description": "Physics-domain structural stability trajectory under controlled perturbation",
+
+  "omega_trajectory": [
+    0.33,
+    0.15,
+    0.74,
+    1.0,
+    1.0
+  ],
+
+  "iri_trajectory": [
+    2.0,
+    5.9,
+    0.35,
+    0.0,
+    0.0
+  ],
+
+  "collapse_point": 1,
+
+  "summary": {
+    "mean_omega": 0.644,
+    "mean_iri": 1.65
   },
-  "pairwise_distances": {
-    "T_delta": 827,
-    "Omega": 0.14553109791625538,
-    "IRI": 5.871383603354944
-  },
-  "total_energy": {
-    "T_delta": -1,
-    "Omega": 0.7443741914232316,
-    "IRI": 0.3434103593624276
-  },
-  "angular_momentum": {
-    "T_delta": -1,
-    "Omega": 0.9999999999999933,
-    "IRI": 6.7288397076481484e-15
-  },
-  "center_of_mass": {
-    "T_delta": -1,
-    "Omega": 0.9999666677777395,
-    "IRI": 3.333333333474693e-05
+
+  "interpretation": {
+    "behavior": "initial instability followed by strong recovery and global structural persistence",
+    "notes": [
+      "early perturbations produce high instability",
+      "coherence recovers sharply after the unstable region",
+      "global structure survives after perturbation"
+    ]
   }
 }
