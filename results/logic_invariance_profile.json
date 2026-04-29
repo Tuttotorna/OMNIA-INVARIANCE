@@ -1,0 +1,14 @@
+{
+  "token_layer": {
+    "Omega": 0.8571428571428571,
+    "IRI": 0.1428571428571429
+  },
+  "relation_layer": {
+    "Omega": 0.5,
+    "IRI": 0.5
+  },
+  "inference_layer": {
+    "Omega": 0.5,
+    "IRI": 0.5
+  }
+}
