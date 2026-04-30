@@ -1,0 +1,148 @@
+OMNIA-INVARIANCE — trajectory embedding verification run
+
+Repository status:
+- Branch: main
+- Working tree: clean
+- Canonical profile format: verified
+- Automatic profile discovery: verified
+- Cross-domain comparison: verified
+- Trajectory plotting: verified
+- Trajectory classification: verified
+- Trajectory morphometrics: verified
+- Trajectory distance matrix: verified
+- Trajectory-space visualization: verified
+- Trajectory clustering: verified
+- Trajectory embedding: verified
+
+================================================================================
+EMBEDDING COORDINATES
+================================================================================
+
+CRYPTO
+----------------------------------------
+PC1: -1.7427
+PC2: -0.2005
+
+Interpretation:
+Rigid-collapse profile inside the main non-recovery cluster.
+
+
+LLM
+----------------------------------------
+PC1: -1.7114
+PC2: -0.1624
+
+Interpretation:
+Very close to crypto in embedding space.
+Current nearest structural neighbor.
+
+
+LOGIC
+----------------------------------------
+PC1: -1.1772
+PC2: 0.3975
+
+Interpretation:
+Intermediate profile with partial separation from crypto/llm.
+
+
+PHYSICS
+----------------------------------------
+PC1: 4.6313
+PC2: -0.0345
+
+Interpretation:
+Strong embedding outlier.
+Distinct recovery-dominant trajectory structure.
+
+
+================================================================================
+CURRENT EMBEDDING READING
+================================================================================
+
+The current PCA embedding suggests a coherent trajectory-space organization:
+
+- crypto and llm remain almost overlapping
+- logic remains near the same macro-region but partially separated
+- physics remains strongly separated from the other domains
+
+This is consistent with:
+
+- trajectory classification
+- morphometric analysis
+- pairwise distances
+- clustering behavior
+- previous trajectory-space visualization
+
+================================================================================
+METHOD
+================================================================================
+
+The current embedding uses:
+
+- Ω trajectories
+- IRI trajectories
+
+combined into a single feature vector.
+
+Current vector construction:
+
+[Ω trajectory | IRI trajectory]
+
+Trajectories shorter than the target length are padded using their final value.
+
+Dimensionality reduction currently uses:
+
+PCA (Principal Component Analysis)
+
+with projection into 2 dimensions.
+
+================================================================================
+IMPORTANT BOUNDARY
+================================================================================
+
+This embedding is preliminary.
+
+It is not yet:
+
+- a rigorous manifold representation
+- a statistically validated embedding
+- a proof of natural trajectory topology
+
+The current embedding depends on:
+
+- current perturbation design
+- current trajectory scaling
+- padding strategy
+- small sample count
+- current feature construction
+
+Further validation requires:
+
+- larger datasets
+- more domains
+- alternative embeddings
+- normalization studies
+- manifold comparison
+- repeated perturbation families
+
+================================================================================
+CONCLUSION
+================================================================================
+
+OMNIA-INVARIANCE now includes a data-driven trajectory embedding layer.
+
+The framework can currently:
+
+- discover profiles
+- compare domains
+- classify trajectories
+- compute morphometrics
+- estimate distances
+- cluster trajectories
+- generate trajectory-space projections
+- compute PCA embeddings
+
+The strongest current result remains methodological:
+
+cross-domain structural trajectories can now generate coherent geometric organization across multiple independent analytical layers.
