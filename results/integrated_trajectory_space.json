@@ -1,0 +1,112 @@
+[
+  {
+    "domain": "crypto",
+    "synthetic": false,
+    "family": "real",
+    "trajectory_class": "rigid-collapse",
+    "embedding_pc1": 0.9867,
+    "embedding_pc2": 0.3649,
+    "nearest_neighbor": "llm",
+    "nearest_distance": 0.1225
+  },
+  {
+    "domain": "finance",
+    "synthetic": false,
+    "family": "real",
+    "trajectory_class": "smooth-degradation",
+    "embedding_pc1": 0.751,
+    "embedding_pc2": -0.1038,
+    "nearest_neighbor": "synthetic_4",
+    "nearest_distance": 0.1557
+  },
+  {
+    "domain": "llm",
+    "synthetic": false,
+    "family": "real",
+    "trajectory_class": "rigid-collapse",
+    "embedding_pc1": 0.9552,
+    "embedding_pc2": 0.3215,
+    "nearest_neighbor": "crypto",
+    "nearest_distance": 0.1225
+  },
+  {
+    "domain": "logic",
+    "synthetic": false,
+    "family": "real",
+    "trajectory_class": "smooth-degradation",
+    "embedding_pc1": 0.4189,
+    "embedding_pc2": -0.1285,
+    "nearest_neighbor": "synthetic_2",
+    "nearest_distance": 0.4195
+  },
+  {
+    "domain": "physics",
+    "synthetic": false,
+    "family": "real",
+    "trajectory_class": "recovery-dominant",
+    "embedding_pc1": -5.3869,
+    "embedding_pc2": 0.279,
+    "nearest_neighbor": "synthetic_3",
+    "nearest_distance": 5.0415
+  },
+  {
+    "domain": "synthetic_1",
+    "synthetic": true,
+    "family": "rigid-collapse",
+    "trajectory_class": "rigid-collapse",
+    "embedding_pc1": 1.0001,
+    "embedding_pc2": 0.494,
+    "nearest_neighbor": "crypto",
+    "nearest_distance": 0.1853
+  },
+  {
+    "domain": "synthetic_2",
+    "synthetic": true,
+    "family": "smooth-degradation",
+    "trajectory_class": "smooth-degradation",
+    "embedding_pc1": 0.7033,
+    "embedding_pc2": -0.1284,
+    "nearest_neighbor": "finance",
+    "nearest_distance": 0.3173
+  },
+  {
+    "domain": "synthetic_3",
+    "synthetic": true,
+    "family": "recovery-dominant",
+    "trajectory_class": "recovery-dominant",
+    "embedding_pc1": -0.5535,
+    "embedding_pc2": -1.1339,
+    "nearest_neighbor": "logic",
+    "nearest_distance": 1.4416
+  },
+  {
+    "domain": "synthetic_4",
+    "synthetic": true,
+    "family": "hybrid",
+    "trajectory_class": "hybrid",
+    "embedding_pc1": 0.7781,
+    "embedding_pc2": -0.0349,
+    "nearest_neighbor": "finance",
+    "nearest_distance": 0.1557
+  },
+  {
+    "domain": "synthetic_5",
+    "synthetic": true,
+    "family": "oscillatory",
+    "trajectory_class": "smooth-degradation",
+    "embedding_pc1": 0.3086,
+    "embedding_pc2": -0.1447,
+    "nearest_neighbor": "logic",
+    "nearest_distance": 0.5502
+  },
+  {
+    "domain": "synthetic_6",
+    "synthetic": true,
+    "family": "chaotic",
+    "trajectory_class": "smooth-degradation",
+    "embedding_pc1": 0.0385,
+    "embedding_pc2": 0.2148,
+    "nearest_neighbor": "synthetic_5",
+    "nearest_distance": 0.6627
+  }
+]
