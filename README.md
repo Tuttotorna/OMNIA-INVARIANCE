@@ -1,5 +1,7 @@
 # OMNIA-INVARIANCE
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19910638.svg)](https://doi.org/10.5281/zenodo.19910638)
+
 Cross-domain perturbation geometry and trajectory-space analysis.
 
 ---
