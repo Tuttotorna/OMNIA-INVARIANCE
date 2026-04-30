@@ -1,0 +1,146 @@
+OMNIA-INVARIANCE — trajectory clustering verification run
+
+Repository status:
+- Branch: main
+- Working tree: clean
+- Canonical profile format: verified
+- Automatic profile discovery: verified
+- Cross-domain comparison: verified
+- Trajectory plotting: verified
+- Trajectory classification: verified
+- Trajectory morphometrics: verified
+- Trajectory distance matrix: verified
+- Trajectory-space visualization: verified
+- Trajectory clustering: verified
+
+================================================================================
+NEAREST NEIGHBORS
+================================================================================
+
+CRYPTO
+----------------------------------------
+nearest neighbor: llm
+distance: 0.1668
+
+
+LLM
+----------------------------------------
+nearest neighbor: crypto
+distance: 0.1668
+
+
+LOGIC
+----------------------------------------
+nearest neighbor: llm
+distance: 1.0845
+
+
+PHYSICS
+----------------------------------------
+nearest neighbor: logic
+distance: 6.7085
+
+
+================================================================================
+CLUSTERS
+================================================================================
+
+Cluster 1
+----------------------------------------
+crypto
+llm
+logic
+
+
+Cluster 2
+----------------------------------------
+physics
+
+
+================================================================================
+CURRENT INTERPRETATION
+================================================================================
+
+The current clustering run suggests:
+
+- crypto and llm form the closest trajectory pair
+- logic remains closer to crypto/llm than to physics
+- physics separates as a strong structural outlier
+
+Current macro-structure:
+
+crypto / llm / logic
+    -> non-recovery macro-cluster
+
+physics
+    -> recovery-dominant outlier
+
+================================================================================
+METHOD
+================================================================================
+
+Clusters are currently generated using:
+
+- pairwise trajectory distances
+- simple threshold grouping
+
+Current threshold:
+
+1.5
+
+Distances combine:
+
+- Ω trajectory distance
+- IRI trajectory distance
+
+using simple Euclidean comparison.
+
+Profiles with shorter trajectories are padded using their final value.
+
+================================================================================
+BOUNDARY
+================================================================================
+
+These clusters are preliminary.
+
+They do not prove universal structural classes.
+
+They may depend on:
+
+- threshold choice
+- perturbation design
+- trajectory length
+- IRI scaling
+- padding strategy
+- current domain selection
+
+Further validation requires:
+
+- more domains
+- larger datasets
+- normalized distance metrics
+- alternative clustering methods
+- repeated perturbation families
+- independent replication
+
+================================================================================
+CONCLUSION
+================================================================================
+
+OMNIA-INVARIANCE now includes a preliminary unsupervised trajectory clustering layer.
+
+The framework can currently:
+
+- discover standardized profiles
+- compare domains
+- plot trajectories
+- classify trajectories
+- compute morphometrics
+- estimate pairwise distances
+- visualize trajectory space
+- group domains into preliminary clusters
+
+The strongest current result is methodological:
+
+trajectory-space organization can now emerge from measured structural behavior,
+not only from manual interpretation.
