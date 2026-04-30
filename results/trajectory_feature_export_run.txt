@@ -1,0 +1,231 @@
+OMNIA-INVARIANCE — trajectory feature export verification run
+
+Repository status:
+- Branch: main
+- Working tree: clean
+- Canonical profile format: verified
+- Automatic profile discovery: verified
+- Cross-domain comparison: verified
+- Trajectory plotting: verified
+- Trajectory classification: verified
+- Trajectory morphometrics: verified
+- Trajectory distance matrix: verified
+- Trajectory-space visualization: verified
+- Trajectory clustering: verified
+- Trajectory embedding: verified
+- Unified trajectory feature export: verified
+
+================================================================================
+EXPORTED FEATURE TABLE
+================================================================================
+
+Generated file:
+
+results/trajectory_feature_table.json
+
+The exported table consolidates:
+
+- trajectory classes
+- morphometric properties
+- embedding coordinates
+- nearest-neighbor relationships
+- structural distance information
+
+into a single reusable dataset.
+
+================================================================================
+EXPORTED DOMAINS
+================================================================================
+
+CRYPTO
+----------------------------------------
+trajectory_class: rigid-collapse
+
+mean_omega: 0.598
+mean_iri: 0.436
+
+collapse_sharpness: 0.26
+recovery_strength: 0.0
+
+omega_volatility: 0.1825
+iri_growth_rate: 0.23
+iri_volatility: 0.23
+
+stability_span: 2
+trajectory_length: 5
+
+embedding_pc1: -1.7427
+embedding_pc2: -0.2005
+
+nearest_neighbor: llm
+nearest_distance: 0.1668
+
+
+LLM
+----------------------------------------
+trajectory_class: rigid-collapse
+
+mean_omega: 0.602
+mean_iri: 0.408
+
+collapse_sharpness: 0.23
+recovery_strength: 0.0
+
+omega_volatility: 0.1775
+iri_growth_rate: 0.2175
+iri_volatility: 0.2175
+
+stability_span: 2
+trajectory_length: 5
+
+embedding_pc1: -1.7114
+embedding_pc2: -0.1624
+
+nearest_neighbor: crypto
+nearest_distance: 0.1668
+
+
+LOGIC
+----------------------------------------
+trajectory_class: smooth-degradation
+
+mean_omega: 0.61
+mean_iri: 0.3933
+
+collapse_sharpness: 0.33
+recovery_strength: 0.0
+
+omega_volatility: 0.165
+iri_growth_rate: 0.16
+iri_volatility: 0.16
+
+stability_span: 1
+trajectory_length: 3
+
+embedding_pc1: -1.1772
+embedding_pc2: 0.3975
+
+nearest_neighbor: llm
+nearest_distance: 1.0845
+
+
+PHYSICS
+----------------------------------------
+trajectory_class: recovery-dominant
+
+mean_omega: 0.644
+mean_iri: 1.65
+
+collapse_sharpness: 0.18
+recovery_strength: 0.85
+
+omega_volatility: 0.2575
+iri_growth_rate: -0.5
+iri_volatility: 2.45
+
+stability_span: 2
+trajectory_length: 5
+
+embedding_pc1: 4.6313
+embedding_pc2: -0.0345
+
+nearest_neighbor: logic
+nearest_distance: 6.7085
+
+================================================================================
+CURRENT STRUCTURAL READING
+================================================================================
+
+The exported dataset confirms a coherent trajectory-space organization
+across multiple independent analytical layers.
+
+Current structure:
+
+crypto / llm
+    -> closest rigid-collapse pair
+
+logic
+    -> intermediate smooth-degradation profile
+
+physics
+    -> distant recovery-dominant outlier
+
+This organization appears consistently across:
+
+- trajectory classification
+- morphometric analysis
+- pairwise distances
+- clustering behavior
+- PCA embedding
+- nearest-neighbor analysis
+
+================================================================================
+CURRENT METHODOLOGICAL SIGNIFICANCE
+================================================================================
+
+The framework no longer operates only as a collection of isolated scripts.
+
+The exported feature table creates a reusable structural dataset layer.
+
+This enables future:
+
+- machine learning analysis
+- alternative clustering methods
+- statistical comparison
+- longitudinal trajectory studies
+- benchmark generation
+- multi-domain expansion
+- embedding comparison
+- anomaly detection
+
+================================================================================
+IMPORTANT BOUNDARY
+================================================================================
+
+These results are preliminary.
+
+They do not prove:
+
+- universal structural laws
+- ontological equivalence between domains
+- natural trajectory topology
+
+The current results depend on:
+
+- perturbation construction
+- current domains
+- scaling choices
+- distance formulation
+- PCA assumptions
+- trajectory padding strategy
+
+Further validation requires:
+
+- more domains
+- larger datasets
+- repeated perturbation families
+- alternative embeddings
+- statistical significance testing
+- independent replication
+
+================================================================================
+CONCLUSION
+================================================================================
+
+OMNIA-INVARIANCE now includes a unified trajectory feature export layer.
+
+The framework can currently:
+
+- discover structural profiles
+- compare domains
+- classify trajectories
+- compute morphometrics
+- estimate distances
+- cluster trajectories
+- generate trajectory-space maps
+- compute PCA embeddings
+- export reusable structural feature datasets
+
+The strongest current result remains methodological:
+
+multiple independent analytical layers now converge toward the same emergent trajectory-space organization.
