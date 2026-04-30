@@ -1,0 +1,153 @@
+OMNIA-INVARIANCE — trajectory space map verification run
+
+Repository status:
+- Branch: main
+- Working tree: clean
+- Canonical profile format: verified
+- Automatic profile discovery: verified
+- Cross-domain comparison: verified
+- Trajectory plotting: verified
+- Trajectory classification: verified
+- Trajectory morphometrics: verified
+- Trajectory distance matrix: verified
+- Trajectory-space visualization: verified
+
+================================================================================
+TRAJECTORY SPACE MAP
+================================================================================
+
+Generated file:
+
+results/trajectory_space_map.png
+
+The current trajectory-space projection uses:
+
+- trajectory distance from a reference domain
+- mean Ω positioning
+
+Current reference domain:
+
+crypto
+
+================================================================================
+CURRENT POSITIONS
+================================================================================
+
+CRYPTO
+----------------------------------------
+distance from crypto: 0.0
+mean Ω: 0.598
+
+Interpretation:
+Reference rigid-collapse profile.
+
+
+LLM
+----------------------------------------
+distance from crypto: 0.1668
+mean Ω: 0.602
+
+Interpretation:
+Very close to crypto in the current trajectory space.
+Current nearest-neighbor pair.
+
+
+LOGIC
+----------------------------------------
+distance from crypto: 1.1553
+mean Ω: 0.619
+
+Interpretation:
+Intermediate profile between rigid-collapse systems and recovery-dominant systems.
+
+
+PHYSICS
+----------------------------------------
+distance from crypto: 7.5784
+mean Ω: 0.644
+
+Interpretation:
+Strong structural outlier in the current trajectory space.
+Distinct recovery-dominant behavior.
+
+
+================================================================================
+CURRENT TRAJECTORY-SPACE READING
+================================================================================
+
+The current projection suggests an emerging structural geometry:
+
+- crypto and llm form a tight local cluster
+- logic occupies an intermediate region
+- physics occupies a distant recovery-dominant region
+
+This is consistent with:
+
+- trajectory classification
+- morphometric analysis
+- pairwise trajectory distances
+
+================================================================================
+IMPORTANT BOUNDARY
+================================================================================
+
+This visualization is preliminary.
+
+The current projection is not a full manifold learning system.
+
+The current map depends on:
+
+- Euclidean trajectory distance
+- reference-domain positioning
+- current normalization strategy
+- current perturbation design
+
+The map is intended as:
+
+- an exploratory visualization
+- an early geometric representation
+- a structural comparison aid
+
+It is not yet a rigorous embedding method.
+
+================================================================================
+CURRENT METHOD
+================================================================================
+
+Trajectory distances currently combine:
+
+- Ω trajectory distance
+- IRI trajectory distance
+
+using simple Euclidean comparison.
+
+Profiles with shorter trajectories are padded using their final value.
+
+The map places domains according to:
+
+x-axis:
+- distance from reference domain
+
+y-axis:
+- mean Ω
+
+================================================================================
+CONCLUSION
+================================================================================
+
+OMNIA-INVARIANCE now includes an initial trajectory-space visualization layer.
+
+The framework can currently:
+
+- discover profiles
+- compare domains
+- classify trajectories
+- compute morphometrics
+- estimate trajectory distances
+- visualize structural trajectory space
+
+The current map suggests that trajectory behavior may organize into geometric regions across domains.
+
+The strongest current result remains methodological:
+
+cross-domain structural trajectories can now be represented geometrically.
