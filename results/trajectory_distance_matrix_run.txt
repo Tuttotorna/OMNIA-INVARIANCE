@@ -1,0 +1,167 @@
+OMNIA-INVARIANCE — trajectory distance matrix verification run
+
+Repository status:
+- Branch: main
+- Working tree: clean
+- Canonical profile format: verified
+- Automatic profile discovery: verified
+- Cross-domain comparison: verified
+- Trajectory plotting: verified
+- Trajectory classification: verified
+- Trajectory morphometrics: verified
+- Trajectory distance matrix: verified
+
+================================================================================
+DISTANCE MATRIX
+================================================================================
+
+domain      crypto      llm         logic       physics
+------------------------------------------------------------
+crypto      0.0         0.1668      1.1553      7.5784
+llm         0.1668      0.0         1.0845      7.5227
+logic       1.1553      1.0845      0.0         6.7085
+physics     7.5784      7.5227      6.7085      0.0
+
+================================================================================
+KEY OBSERVATIONS
+================================================================================
+
+1. Closest pair
+
+crypto <-> llm:
+distance = 0.1668
+
+Current interpretation:
+Crypto and LLM profiles are almost overlapping in the current trajectory space.
+
+Both show:
+- high initial coherence
+- progressive degradation
+- no recovery
+- positive IRI growth
+- rigid-collapse behavior
+
+
+2. Intermediate profile
+
+logic <-> llm:
+distance = 1.0845
+
+logic <-> crypto:
+distance = 1.1553
+
+Current interpretation:
+Logic is closer to the crypto/LLM group than to physics, but it remains distinct.
+
+Logic currently behaves as a smoother degradation profile.
+
+
+3. Structural outlier
+
+physics <-> logic:
+distance = 6.7085
+
+physics <-> llm:
+distance = 7.5227
+
+physics <-> crypto:
+distance = 7.5784
+
+Current interpretation:
+Physics is the strongest structural outlier in the current trajectory space.
+
+The difference is driven by:
+- strong recovery behavior
+- early IRI spike
+- negative IRI growth rate
+- high IRI volatility
+- recovery-dominant trajectory shape
+
+
+================================================================================
+CURRENT TRAJECTORY-SPACE READING
+================================================================================
+
+The current distance matrix suggests an emerging trajectory-space structure:
+
+crypto / llm
+    -> very close rigid-collapse profiles
+
+logic
+    -> intermediate smooth-degradation profile
+
+physics
+    -> distant recovery-dominant outlier
+
+This supports the current trajectory classification:
+
+crypto  -> rigid-collapse
+llm     -> rigid-collapse
+logic   -> smooth-degradation
+physics -> recovery-dominant
+
+================================================================================
+METHOD
+================================================================================
+
+Distances combine:
+
+- Ω trajectory distance
+- IRI trajectory distance
+
+using a simple Euclidean comparison.
+
+Profiles with shorter trajectories are padded using their final value.
+
+This is an initial geometric approximation of trajectory similarity.
+
+================================================================================
+BOUNDARY
+================================================================================
+
+These results are preliminary.
+
+They do not prove a universal structural law.
+
+They do not prove semantic equivalence between domains.
+
+They may depend on:
+
+- perturbation design
+- trajectory length
+- metric scaling
+- IRI normalization
+- padding strategy
+- domain construction
+
+Further validation requires:
+
+- larger datasets
+- repeated runs
+- more domains
+- normalized distance metrics
+- statistical trajectory comparison
+- independent replication
+
+================================================================================
+CONCLUSION
+================================================================================
+
+OMNIA-INVARIANCE now includes a first trajectory-space distance layer.
+
+The framework can currently:
+
+- discover standardized profiles
+- compare domains
+- plot trajectories
+- classify trajectory classes
+- compute trajectory morphometrics
+- estimate pairwise trajectory distances
+
+The strongest current result is methodological:
+
+cross-domain structural trajectories can now be compared geometrically.
+
+The current run suggests that crypto and LLM profiles are very close,
+logic is intermediate,
+and physics is a strong structural outlier.
