@@ -1,0 +1,90 @@
+[
+  {
+    "domain": "crypto",
+    "synthetic": false,
+    "nearest_neighbor": "synthetic_1",
+    "nearest_distance": 0.1299,
+    "embedding_pc1": 0.632,
+    "embedding_pc2": -0.3228
+  },
+  {
+    "domain": "finance",
+    "synthetic": false,
+    "nearest_neighbor": "synthetic_4",
+    "nearest_distance": 0.3291,
+    "embedding_pc1": 0.6857,
+    "embedding_pc2": -0.1427
+  },
+  {
+    "domain": "llm",
+    "synthetic": false,
+    "nearest_neighbor": "crypto",
+    "nearest_distance": 0.1351,
+    "embedding_pc1": 0.6064,
+    "embedding_pc2": -0.3357
+  },
+  {
+    "domain": "logic",
+    "synthetic": false,
+    "nearest_neighbor": "finance",
+    "nearest_distance": 1.0479,
+    "embedding_pc1": 0.3326,
+    "embedding_pc2": 0.6864
+  },
+  {
+    "domain": "physics",
+    "synthetic": false,
+    "nearest_neighbor": "synthetic_3",
+    "nearest_distance": 0.9236,
+    "embedding_pc1": -1.6607,
+    "embedding_pc2": -0.3538
+  },
+  {
+    "domain": "synthetic_1",
+    "synthetic": true,
+    "nearest_neighbor": "crypto",
+    "nearest_distance": 0.1299,
+    "embedding_pc1": 0.6693,
+    "embedding_pc2": -0.2353
+  },
+  {
+    "domain": "synthetic_2",
+    "synthetic": true,
+    "nearest_neighbor": "finance",
+    "nearest_distance": 0.4881,
+    "embedding_pc1": 0.6776,
+    "embedding_pc2": -0.0377
+  },
+  {
+    "domain": "synthetic_3",
+    "synthetic": true,
+    "nearest_neighbor": "physics",
+    "nearest_distance": 0.9236,
+    "embedding_pc1": -1.6735,
+    "embedding_pc2": -0.4413
+  },
+  {
+    "domain": "synthetic_4",
+    "synthetic": true,
+    "nearest_neighbor": "finance",
+    "nearest_distance": 0.3291,
+    "embedding_pc1": 0.5974,
+    "embedding_pc2": -0.3445
+  },
+  {
+    "domain": "synthetic_5",
+    "synthetic": true,
+    "nearest_neighbor": "synthetic_6",
+    "nearest_distance": 0.3922,
+    "embedding_pc1": -0.4828,
+    "embedding_pc2": 0.7415
+  },
+  {
+    "domain": "synthetic_6",
+    "synthetic": true,
+    "nearest_neighbor": "synthetic_5",
+    "nearest_distance": 0.3922,
+    "embedding_pc1": -0.3842,
+    "embedding_pc2": 0.7859
+  }
+]
