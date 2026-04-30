@@ -11,10 +11,27 @@
     "iri_volatility": 0.23,
     "stability_span": 2,
     "trajectory_length": 5,
-    "embedding_pc1": -1.7427,
-    "embedding_pc2": -0.2005,
+    "embedding_pc1": 1.4375,
+    "embedding_pc2": -0.2863,
     "nearest_neighbor": "llm",
     "nearest_distance": 0.1668
+  },
+  {
+    "domain": "finance",
+    "trajectory_class": "smooth-degradation",
+    "mean_omega": 0.638,
+    "mean_iri": 0.39,
+    "collapse_sharpness": 0.23,
+    "recovery_strength": 0.0,
+    "omega_volatility": 0.1275,
+    "iri_growth_rate": 0.1325,
+    "iri_volatility": 0.1875,
+    "stability_span": 1,
+    "trajectory_length": 5,
+    "embedding_pc1": 1.2105,
+    "embedding_pc2": 0.2638,
+    "nearest_neighbor": "logic",
+    "nearest_distance": 0.5922
   },
   {
     "domain": "llm",
@@ -28,8 +45,8 @@
     "iri_volatility": 0.2175,
     "stability_span": 2,
     "trajectory_length": 5,
-    "embedding_pc1": -1.7114,
-    "embedding_pc2": -0.1624,
+    "embedding_pc1": 1.4066,
+    "embedding_pc2": -0.2485,
     "nearest_neighbor": "crypto",
     "nearest_distance": 0.1668
   },
@@ -45,10 +62,10 @@
     "iri_volatility": 0.16,
     "stability_span": 1,
     "trajectory_length": 3,
-    "embedding_pc1": -1.1772,
-    "embedding_pc2": 0.3975,
-    "nearest_neighbor": "llm",
-    "nearest_distance": 1.0845
+    "embedding_pc1": 0.8793,
+    "embedding_pc2": 0.306,
+    "nearest_neighbor": "finance",
+    "nearest_distance": 0.5922
   },
   {
     "domain": "physics",
@@ -62,8 +79,8 @@
     "iri_volatility": 2.45,
     "stability_span": 2,
     "trajectory_length": 5,
-    "embedding_pc1": 4.6313,
-    "embedding_pc2": -0.0345,
+    "embedding_pc1": -4.9338,
+    "embedding_pc2": -0.035,
     "nearest_neighbor": "logic",
     "nearest_distance": 6.7085
   }
