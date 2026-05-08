@@ -1,37 +1,14 @@
 {
-  "domain": "llm",
-  "experiment": "llm_invariance_profile",
-  "description": "LLM-domain structural stability trajectory under prompt perturbation",
-
-  "omega_trajectory": [
-    0.92,
-    0.81,
-    0.63,
-    0.44,
-    0.21
-  ],
-
-  "iri_trajectory": [
-    0.04,
-    0.12,
-    0.31,
-    0.66,
-    0.91
-  ],
-
-  "collapse_point": 3,
-
-  "summary": {
-    "mean_omega": 0.602,
-    "mean_iri": 0.408
+  "token_layer": {
+    "Omega": 0.6666666666666666,
+    "IRI": 0.33333333333333337
   },
-
-  "interpretation": {
-    "behavior": "high apparent coherence with progressive instability under perturbation accumulation",
-    "notes": [
-      "surface coherence remains stable initially",
-      "degradation accelerates after accumulated perturbation",
-      "irreversibility rises sharply near collapse region"
-    ]
+  "reasoning_layer": {
+    "Omega": 0.5,
+    "IRI": 0.5
+  },
+  "answer_layer": {
+    "Omega": 0.0,
+    "IRI": 1.0
   }
 }

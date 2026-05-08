@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omnia-invariance"
+version = "0.1.1"
+description = "Cross-domain invariance, perturbation geometry, and trajectory-space analysis layer for OMNIA."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Massimiliano Brighindi", email = "brighissimo@users.noreply.github.com" }
+]
+license = { file = "LICENSE" }
+dependencies = [
+  "numpy",
+  "matplotlib"
+]
+keywords = ["omnia", "invariance", "structural-measurement", "trajectory-analysis", "perturbation"]
+
+[project.urls]
+Repository = "https://github.com/Tuttotorna/OMNIA-INVARIANCE"
+DOI = "https://doi.org/10.5281/zenodo.19910638"
+
+[tool.setuptools]
+py-modules = []

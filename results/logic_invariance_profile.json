@@ -1,33 +1,14 @@
 {
-  "domain": "logic",
-  "experiment": "logic_invariance_profile",
-  "description": "Logic-domain structural stability trajectory under symbolic perturbation",
-
-  "omega_trajectory": [
-    0.83,
-    0.50,
-    0.50
-  ],
-
-  "iri_trajectory": [
-    0.18,
-    0.50,
-    0.50
-  ],
-
-  "collapse_point": 1,
-
-  "summary": {
-    "mean_omega": 0.619,
-    "mean_iri": 0.393
+  "token_layer": {
+    "Omega": 0.8333333333333334,
+    "IRI": 0.16666666666666663
   },
-
-  "interpretation": {
-    "behavior": "moderate coherence persistence under symbolic degradation",
-    "notes": [
-      "symbolic perturbations reduce coherence progressively",
-      "partial structural persistence remains after degradation",
-      "collapse behavior is smoother than the crypto profile"
-    ]
+  "relation_layer": {
+    "Omega": 0.5,
+    "IRI": 0.5
+  },
+  "inference_layer": {
+    "Omega": 0.5,
+    "IRI": 0.5
   }
 }

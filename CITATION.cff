@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived Zenodo record."
+title: "OMNIA-INVARIANCE — Cross-Domain Invariance and Trajectory-Space Analysis"
+authors:
+  - family-names: "Brighindi"
+    given-names: "Massimiliano"
+repository-code: "https://github.com/Tuttotorna/OMNIA-INVARIANCE"
+doi: "10.5281/zenodo.19910638"
+version: "0.1.1"
+date-released: "2026-05-08"
+license: "MIT"
