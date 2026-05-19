@@ -28,6 +28,41 @@ Decision remains external.
 
 ---
 
+- [`docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md`](docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md)
+
+## Public position
+
+OMNIA-INVARIANCE public positioning is documented here:
+
+- [`docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md`](docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md)
+
+Core principle:
+
+```text
+structural truth = invariance under transformation
+```
+
+Correct boundary:
+
+```text
+invariance != truth oracle
+measurement != inference != decision
+```
+
+Core role:
+
+```text
+OMNIA-INVARIANCE studies what remains structurally stable under transformation.
+```
+
+It does not decide semantic truth.
+
+It does not replace validation.
+
+It does not make final decisions.
+
+---
+
 ## What this repository is
 
 OMNIA-INVARIANCE is an experimental structural analysis repository.
