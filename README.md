@@ -28,8 +28,6 @@ Decision remains external.
 
 ---
 
-- [`docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md`](docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md)
-
 ## Public position
 
 OMNIA-INVARIANCE public positioning is documented here:
@@ -60,7 +58,6 @@ It does not decide semantic truth.
 It does not replace validation.
 
 It does not make final decisions.
-
 ---
 
 ## What this repository is
