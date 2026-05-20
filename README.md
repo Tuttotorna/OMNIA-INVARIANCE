@@ -1,278 +1,191 @@
 # OMNIA-INVARIANCE
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19910638.svg)](https://doi.org/10.5281/zenodo.19910638)
+**Structural invariance layer.**
 
-**OMNIA-INVARIANCE** is the cross-domain invariance, perturbation geometry, and trajectory-space analysis layer of the OMNIA ecosystem.
+OMNIA-INVARIANCE is the transformation and invariance layer of the MB-X.01 / OMNIA ecosystem.
 
-It studies what remains structurally stable when systems are transformed, perturbed, normalized, or compared across representation spaces.
+Its role is narrow:
 
-Core thesis:
+    source structure -> controlled transformation -> invariance check -> stability / collapse
 
-```text
-Structural truth = invariance under transformation
-```
+It asks one question:
 
-Core boundary:
+    what remains structurally stable when the structure is transformed?
 
-```text
-measurement != inference != decision
-```
+OMNIA-INVARIANCE is not the ecosystem landing page.
 
-OMNIA-INVARIANCE is not a truth oracle.
+It is not the validation showroom.
 
-OMNIA-INVARIANCE is not a semantic judge.
+It is not the OMNIA core measurement engine.
 
-OMNIA-INVARIANCE does not make final decisions.
+It is not a truth oracle.
 
-Decision remains external.
+It is the layer that checks whether structure survives controlled transformation.
 
----
+Canonical boundary:
 
-## Public position
+    measurement != inference != decision
 
-OMNIA-INVARIANCE public positioning is documented here:
-
-- [`docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md`](docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md)
-
-Core principle:
-
-```text
-structural truth = invariance under transformation
-```
-
-Correct boundary:
-
-```text
-invariance != truth oracle
-measurement != inference != decision
-```
-
-Core role:
-
-```text
-OMNIA-INVARIANCE studies what remains structurally stable under transformation.
-```
-
-It does not decide semantic truth.
-
-It does not replace validation.
-
-It does not make final decisions.
----
-
-## What this repository is
-
-OMNIA-INVARIANCE is an experimental structural analysis repository.
-
-It focuses on:
-
-- invariance under transformation
-- perturbation geometry
-- trajectory-space organization
-- topology robustness
-- cross-domain structural comparison
-- representation-aware measurement
-- normalized versus raw trajectory behavior
-- fragility and stability under controlled variation
-
-The repository asks:
-
-```text
-What structural behavior survives transformation?
-What collapses?
-What is representation-dependent?
-What remains stable across domains?
-```
+    Structural truth = invariance under transformation
 
 ---
 
-## What this repository is not
+## Start here
+
+From a clean environment:
+
+    git clone https://github.com/Tuttotorna/OMNIA-INVARIANCE.git
+    cd OMNIA-INVARIANCE
+    python -m pip install -e .
+    pytest
+
+If example scripts are available, run the smallest demonstration after tests pass.
+
+The goal is to see the invariance path:
+
+    source structure
+      -> controlled transformation
+      -> invariance check
+      -> stability / collapse
+      -> external validation
+
+---
+
+## What OMNIA-INVARIANCE does
+
+OMNIA-INVARIANCE checks what remains stable after controlled transformation.
+
+It can help distinguish:
+
+- stable structural residue;
+- transformation-sensitive structure;
+- collapse under perturbation;
+- representation-bound artifacts;
+- invariance candidates worth validating.
+
+Public compression:
+
+    RADAR detects.
+    OMNIA measures.
+    INVARIANCE checks what survives transformation.
+    VALIDATION tests artifacts.
+
+---
+
+## What OMNIA-INVARIANCE does not do
 
 OMNIA-INVARIANCE does not:
 
-- prove universal laws
-- prove semantic equivalence
-- prove physical identity between domains
-- infer meaning
-- perform cognition
-- replace scientific domain models
-- replace external review
-- make final decisions
+- infer semantic truth;
+- decide correctness;
+- replace OMNIA measurement;
+- replace OMNIA-VALIDATION;
+- prove final truth;
+- prove physical truth;
+- perform security scanning;
+- perform cryptographic attacks;
+- convert invariance into final decision.
 
-It measures structural response under transformation.
-
-It does not decide semantic truth.
-
----
-
-## Current experimental domains
-
-Current examples include:
-
-- crypto systems
-- LLM perturbation behavior
-- symbolic logic
-- physics trajectories
-- financial trajectories
-- synthetic perturbation families
+The final decision remains external.
 
 ---
 
-## Current geometry layers
+## Public mental model
 
-### Raw-space
+    Surface similarity is cheap.
+    Structural invariance is harder.
+    OMNIA-INVARIANCE checks what survives controlled transformation.
 
-Geometry built from raw Ω and IRI trajectories.
+Invariance is evidence of structural persistence.
 
-Captures:
-
-- shape
-- magnitude
-- energetic scale
-- raw perturbation response
-
-### Normalized-space
-
-Geometry built from normalized trajectories.
-
-Captures:
-
-- shape-dominant topology
-- perturbation form
-- cross-domain comparability
-- structural persistence
+It is not final truth.
 
 ---
 
-## Canonical pipeline
+## Invariance contract
 
-Typical execution flow:
+Every serious OMNIA-INVARIANCE result should make clear:
 
-```bash
-python examples/compare_domains.py
-python examples/classify_trajectories.py
-python examples/trajectory_morphometrics.py
-python examples/trajectory_distance_matrix.py
-python examples/trajectory_clustering.py
-python examples/trajectory_embedding.py
-python examples/export_trajectory_features.py
-python examples/generate_synthetic_trajectories.py
-python examples/integrate_synthetic_trajectories.py
-python examples/normalized_trajectory_space.py
-```
-
-Small invariance demos:
-
-```bash
-python examples/invariance_logic_demo.py
-python examples/invariance_physics_demo.py
-python examples/invariance_llm_static_demo.py
-```
+| Component | Meaning |
+|---|---|
+| source structure | The object, output, trace, representation, or trajectory being transformed |
+| transformation | The controlled change applied |
+| invariance check | What structural property is checked after transformation |
+| stable residue | What remains invariant |
+| collapse signal | What fails to survive |
+| result | stable, unstable, collapsed, candidate, or inconclusive |
+| limitation | What the invariance result does not prove |
+| external validation | How the result should be tested later |
 
 ---
 
-## Repository type
+## Result vocabulary
 
-This repository is currently a script-and-results research repository.
+Recommended result vocabulary:
 
-It is not a full source package with a dedicated import module.
+    stable
+    unstable
+    collapsed
+    candidate
+    inconclusive
 
-The `pyproject.toml` exists for metadata and editable installation compatibility.
+Meaning:
 
----
-
-## Repository structure
-
-```text
-docs/       conceptual and experimental notes
-examples/   runnable trajectory and invariance scripts
-results/    generated result artifacts and plots
-domains/    domain-specific notes
-png         existing visual artifact
-```
+- stable: measured structure persists under the declared transformation;
+- unstable: measured structure changes significantly;
+- collapsed: measured structure fails to survive the transformation;
+- candidate: a possible invariant residue should be tested further;
+- inconclusive: the check is insufficient or ambiguous.
 
 ---
 
-## Results and evidence
+## Recommended reading order
 
-The repository contains result artifacts for:
-
-- cross-domain comparison
-- Ω trajectory comparison
-- IRI trajectory comparison
-- crypto / finance / LLM / logic / physics profiles
-- normalized trajectory space
-- integrated trajectory space
-- trajectory classification
-- clustering
-- morphometrics
-- embeddings
-
-See:
-
-- [`docs/RESULTS_INDEX.md`](docs/RESULTS_INDEX.md)
-- [`docs/INVARIANCE_SCOPE.md`](docs/INVARIANCE_SCOPE.md)
-- [`docs/REPOSITORY_STATUS.md`](docs/REPOSITORY_STATUS.md)
-
----
-
-## Relationship to OMNIA
-
-OMNIA is the structural measurement core.
-
-OMNIA-INVARIANCE is the invariance and perturbation-geometry analysis layer.
-
-```text
-OMNIA             = structural measurement
-OMNIA-INVARIANCE  = invariance / trajectory-space analysis
-OMNIA-VALIDATION  = external evidence / reproducibility
-Decision           = external layer
-```
-
-The separation remains strict:
-
-```text
-measurement != inference != decision
-```
+1. [docs/QUICKSTART_INVARIANCE.md](docs/QUICKSTART_INVARIANCE.md)
+2. [docs/INVARIANCE_OVERVIEW.md](docs/INVARIANCE_OVERVIEW.md)
+3. [docs/TRANSFORMATION_CONTRACT.md](docs/TRANSFORMATION_CONTRACT.md)
+4. [docs/STABILITY_AND_COLLAPSE.md](docs/STABILITY_AND_COLLAPSE.md)
+5. [docs/INVARIANCE_BOUNDARY.md](docs/INVARIANCE_BOUNDARY.md)
+6. [docs/INVARIANCE_MANIFEST.json](docs/INVARIANCE_MANIFEST.json)
 
 ---
 
 ## Related repositories
 
-- lon-mirror: https://github.com/Tuttotorna/lon-mirror
-- OMNIA: https://github.com/Tuttotorna/OMNIA
-- OMNIA-VALIDATION: https://github.com/Tuttotorna/OMNIA-VALIDATION
-- OMNIABASE: https://github.com/Tuttotorna/OMNIABASE
-- omnia-limit: https://github.com/Tuttotorna/omnia-limit
+| Repository | Role |
+|---|---|
+| [lon-mirror](https://github.com/Tuttotorna/lon-mirror) | Canonical ecosystem entry point |
+| [OMNIA-VALIDATION](https://github.com/Tuttotorna/OMNIA-VALIDATION) | Public validation showroom |
+| [OMNIA](https://github.com/Tuttotorna/OMNIA) | Core structural measurement engine |
+| [OMNIABASE](https://github.com/Tuttotorna/OMNIABASE) | Representation invariance foundation |
+| [OMNIA-RADAR](https://github.com/Tuttotorna/OMNIA-RADAR) | Structural signal detection layer |
+| [omnia-limit](https://github.com/Tuttotorna/omnia-limit) | Stop / continue boundary layer |
+| [OMNIA-CONSTANT](https://github.com/Tuttotorna/OMNIA-CONSTANT) | Stable-region falsification layer |
 
 ---
 
-## Citation
+## Ecosystem entry point
 
-If you reference this repository, use the archived Zenodo record:
+For the full ecosystem map, start here:
 
-```text
-DOI: 10.5281/zenodo.19910638
-https://doi.org/10.5281/zenodo.19910638
-```
+    https://github.com/Tuttotorna/lon-mirror
 
-Citation metadata is available in:
+For public validation artifacts, start here:
 
-- [`CITATION.cff`](CITATION.cff)
+    https://github.com/Tuttotorna/OMNIA-VALIDATION
+
+For core structural measurement, start here:
+
+    https://github.com/Tuttotorna/OMNIA
 
 ---
 
-## Summary
 
-OMNIA-INVARIANCE studies structural behavior under transformation.
+## Smoke-test required terms
 
-It does not claim semantic truth.
+    Decision remains external
 
-It tests whether structure survives perturbation, normalization, and cross-domain comparison.
+## License
 
-Its central rule is:
+MIT.
 
-```text
-Structural truth = invariance under transformation
-measurement != inference != decision
-```

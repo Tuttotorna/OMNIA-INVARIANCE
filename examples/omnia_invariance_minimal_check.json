@@ -1,0 +1,20 @@
+{
+  "case_id": "omnia-invariance-minimal-check-v0",
+  "purpose": "Demonstrate the OMNIA-INVARIANCE contract without claiming final truth.",
+  "boundary": "measurement != inference != decision",
+  "pipeline": [
+    "source structure",
+    "controlled transformation",
+    "invariance check",
+    "stability / collapse",
+    "external validation"
+  ],
+  "source_ref": "placeholder source structure",
+  "transformation": "placeholder controlled transformation",
+  "invariance_target": "placeholder structural property",
+  "stable_residue": null,
+  "collapse_signal": null,
+  "invariance_result": "inconclusive",
+  "limitation": "This placeholder artifact defines the public invariance shape. It is not a scientific result.",
+  "external_validation": "Decision remains external; artifacts should be validated through OMNIA-VALIDATION."
+}
