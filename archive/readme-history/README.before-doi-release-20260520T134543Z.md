@@ -1,21 +1,5 @@
 # OMNIA-INVARIANCE
 
-## DOI
-
-[![DOI](https://zenodo.org/badge/1224811295.svg)](https://zenodo.org/badge/latestdoi/1224811295)
-
-Release DOI:
-
-    10.5281/zenodo.19910638
-
-Zenodo latest DOI link:
-
-    https://doi.org/10.5281/zenodo.19910638
-
-GitHub release:
-
-    https://github.com/Tuttotorna/OMNIA-INVARIANCE/releases/tag/v1.0.0
-
 **Structural invariance layer.**
 
 OMNIA-INVARIANCE is the transformation and invariance layer of the MB-X.01 / OMNIA ecosystem.
