@@ -4,15 +4,53 @@
 
 [![DOI](https://zenodo.org/badge/1224811295.svg)](https://zenodo.org/badge/latestdoi/1224811295)
 
-Release DOI: [10.5281/zenodo.19910638](https://doi.org/10.5281/zenodo.19910638)
+Release DOI:
 
-GitHub release: [OMNIA-INVARIANCE v1.0.0 release](https://github.com/Tuttotorna/OMNIA-INVARIANCE/releases/tag/v1.0.0)
+    10.5281/zenodo.19910638
+
+Zenodo latest DOI link:
+
+    https://doi.org/10.5281/zenodo.19910638
+
+GitHub release:
+
+    https://github.com/Tuttotorna/OMNIA-INVARIANCE/releases/tag/v1.0.0
+
+**Structural invariance layer.**
+
+OMNIA-INVARIANCE is the transformation and invariance layer of the MB-X.01 / OMNIA ecosystem.
+
+Its role is narrow:
+
+    source structure -> controlled transformation -> invariance check -> stability / collapse
+
+It asks one question:
+
+    what remains structurally stable when the structure is transformed?
+
+OMNIA-INVARIANCE is not the ecosystem landing page.
+
+It is not the validation showroom.
+
+It is not the OMNIA core measurement engine.
+
+It is not a truth oracle.
+
+It is the layer that checks whether structure survives controlled transformation.
+
+Canonical boundary:
+
+    measurement != inference != decision
+
+    Structural truth = invariance under transformation
+
+---
 
 ## Start here
 
 From a clean environment:
 
-    git clone [OMNIA-INVARIANCE.git](https://github.com/Tuttotorna/OMNIA-INVARIANCE.git)
+    git clone https://github.com/Tuttotorna/OMNIA-INVARIANCE.git
     cd OMNIA-INVARIANCE
     python -m pip install -e .
     pytest
@@ -128,19 +166,33 @@ Meaning:
 
 ---
 
+## Related repositories
+
+| Repository | Role |
+|---|---|
+| [lon-mirror](https://github.com/Tuttotorna/lon-mirror) | Canonical ecosystem entry point |
+| [OMNIA-VALIDATION](https://github.com/Tuttotorna/OMNIA-VALIDATION) | Public validation showroom |
+| [OMNIA](https://github.com/Tuttotorna/OMNIA) | Core structural measurement engine |
+| [OMNIABASE](https://github.com/Tuttotorna/OMNIABASE) | Representation invariance foundation |
+| [OMNIA-RADAR](https://github.com/Tuttotorna/OMNIA-RADAR) | Structural signal detection layer |
+| [omnia-limit](https://github.com/Tuttotorna/omnia-limit) | Stop / continue boundary layer |
+| [OMNIA-CONSTANT](https://github.com/Tuttotorna/OMNIA-CONSTANT) | Stable-region falsification layer |
+
+---
+
 ## Ecosystem entry point
 
 For the full ecosystem map, start here:
 
-[lon-mirror](https://github.com/Tuttotorna/lon-mirror)
+    https://github.com/Tuttotorna/lon-mirror
 
 For public validation artifacts, start here:
 
-[OMNIA-VALIDATION](https://github.com/Tuttotorna/OMNIA-VALIDATION)
+    https://github.com/Tuttotorna/OMNIA-VALIDATION
 
 For core structural measurement, start here:
 
-[OMNIA](https://github.com/Tuttotorna/OMNIA)
+    https://github.com/Tuttotorna/OMNIA
 
 ---
 
@@ -149,34 +201,7 @@ For core structural measurement, start here:
 
     Decision remains external
 
-## Related repositories
-
-| Repository | Role |
-|---|---|
-| [lon-mirror](https://github.com/Tuttotorna/lon-mirror) | Canonical public entry point |
-| [OMNIA-VALIDATION](https://github.com/Tuttotorna/OMNIA-VALIDATION) | Public validation showroom |
-| [OMNIA](https://github.com/Tuttotorna/OMNIA) | Core structural measurement engine |
-| [OMNIABASE](https://github.com/Tuttotorna/OMNIABASE) | Representation invariance foundation |
-| [omnia-limit](https://github.com/Tuttotorna/omnia-limit) | Stop / continue boundary layer |
-| [OMNIA-RADAR](https://github.com/Tuttotorna/OMNIA-RADAR) | Structural signal detection layer |
-| [OMNIA-INVARIANCE](https://github.com/Tuttotorna/OMNIA-INVARIANCE) | Structural invariance layer |
-| [OMNIA-CONSTANT](https://github.com/Tuttotorna/OMNIA-CONSTANT) | Structural constant candidate layer |
-| [OMNIAMIND](https://github.com/Tuttotorna/OMNIAMIND) | Structural cognition orchestration layer |
-| [OMNIA-THREE-BODY](https://github.com/Tuttotorna/OMNIA-THREE-BODY) | Dynamic divergence stress test |
-| [OMNIA-SECURITY](https://github.com/Tuttotorna/OMNIA-SECURITY) | Bounded structural security diagnostics |
-| [OMNIA-CRYPTO](https://github.com/Tuttotorna/OMNIA-CRYPTO) | Bounded structural crypto diagnostics |
-
----
-
-## Boundary and smoke-test required terms
-
-    Structural truth = invariance under transformation
-    measurement != inference != decision
-    not a truth oracle
-    not a semantic judge
-
----
-
 ## License
 
 MIT.
+
