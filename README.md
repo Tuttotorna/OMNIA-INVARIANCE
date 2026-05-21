@@ -1,5 +1,20 @@
 # OMNIA-INVARIANCE
 
+<!-- ZENODO DOI:START -->
+
+## DOI
+
+[![DOI](https://zenodo.org/badge/1224811295.svg)](https://zenodo.org/badge/latestdoi/1224811295)
+
+Zenodo DOI badge for this repository.
+
+Repository: Tuttotorna/OMNIA-INVARIANCE
+GitHub repository id: 1224811295
+Latest release DOI: pending Zenodo publication or resolved dynamically by Zenodo badge
+
+<!-- ZENODO DOI:END -->
+
+
 ## DOI
 
 [![DOI](https://zenodo.org/badge/1224811295.svg)](https://zenodo.org/badge/latestdoi/1224811295)
