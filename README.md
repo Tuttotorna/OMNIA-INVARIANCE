@@ -1,16 +1,35 @@
+<!-- MB-X.01 LON RELEASE:START -->
+
+## MB-X.01 / L.O.N. release state
+
+Repository: Tuttotorna/OMNIA-INVARIANCE
+Release tag: v2026.05.21
+Release commit: 1e6f54c
+Release DOI: 10.5281/zenodo.20322694
+
+Boundary:
+
+measurement != validation
+validation != orchestration
+orchestration != decision
+decision != measurement
+
+<!-- MB-X.01 LON RELEASE:END -->
+
 # OMNIA-INVARIANCE
 
 <!-- ZENODO DOI:START -->
 
 ## DOI
 
-[![DOI](https://zenodo.org/badge/1224811295.svg)](https://zenodo.org/badge/latestdoi/1224811295)
+[![DOI](https://zenodo.org/badge/DOI/10.5281%2Fzenodo.20322694.svg)](https://doi.org/10.5281/zenodo.20322694)
 
 Zenodo DOI badge for this repository.
 
 Repository: Tuttotorna/OMNIA-INVARIANCE
 GitHub repository id: 1224811295
-Latest release DOI: pending Zenodo publication or resolved dynamically by Zenodo badge
+Release tag: v2026.05.21
+Latest release DOI: 10.5281/zenodo.20322694
 
 <!-- ZENODO DOI:END -->
 
