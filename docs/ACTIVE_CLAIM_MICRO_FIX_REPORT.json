@@ -1,0 +1,116 @@
+{
+  "repository": "OMNIA-INVARIANCE",
+  "timestamp_utc": "2026-05-21T16:46:56Z",
+  "active_before_count": 1,
+  "active_after_count": 0,
+  "safe_before_count": 7,
+  "safe_after_count": 7,
+  "active_before": [
+    {
+      "file": "docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md",
+      "line": 530,
+      "patterns": [
+        "\\babsolute\\s+truth\\b"
+      ],
+      "classification": "active_risky_claim",
+      "text": "OMNIA-INVARIANCE proves absolute truth"
+    }
+  ],
+  "active_after": [],
+  "safe_after": [
+    {
+      "file": "README.md",
+      "line": 209,
+      "patterns": [
+        "\\btruth\\s+oracle\\b",
+        "\\boracle\\b"
+      ],
+      "classification": "safe_boundary_or_negative",
+      "text": "not a truth oracle"
+    },
+    {
+      "file": "docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md",
+      "line": 19,
+      "patterns": [
+        "\\btruth\\s+oracle\\b",
+        "\\boracle\\b"
+      ],
+      "classification": "safe_boundary_or_negative",
+      "text": "OMNIA-INVARIANCE is not a truth oracle."
+    },
+    {
+      "file": "docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md",
+      "line": 30,
+      "patterns": [
+        "\\btruth\\s+oracle\\b",
+        "\\boracle\\b"
+      ],
+      "classification": "safe_boundary_or_negative",
+      "text": "invariance != truth oracle"
+    },
+    {
+      "file": "docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md",
+      "line": 560,
+      "patterns": [
+        "\\btruth\\s+oracle\\b",
+        "\\boracle\\b"
+      ],
+      "classification": "safe_boundary_or_negative",
+      "text": "invariance != truth oracle"
+    },
+    {
+      "file": "docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md",
+      "line": 628,
+      "patterns": [
+        "\\btruth\\s+oracle\\b",
+        "\\boracle\\b"
+      ],
+      "classification": "safe_boundary_or_negative",
+      "text": "invariance != truth oracle"
+    },
+    {
+      "file": "docs/PRODUCTION_READINESS.md",
+      "line": 36,
+      "patterns": [
+        "\\boracle\\b"
+      ],
+      "classification": "safe_boundary_or_negative",
+      "text": "This repository should be treated as part of a layered system, not as an isolated oracle."
+    },
+    {
+      "file": "docs/RESULTS_INDEX.md",
+      "line": 75,
+      "patterns": [
+        "\\buniversal\\s+proof\\b"
+      ],
+      "classification": "safe_boundary_or_negative",
+      "text": "result artifact != universal proof"
+    }
+  ],
+  "fix": {
+    "changed_files": [
+      "docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md"
+    ],
+    "line_changes": [
+      {
+        "file": "docs/OMNIA_INVARIANCE_PUBLIC_POSITION.md",
+        "line": 530,
+        "before": "OMNIA-INVARIANCE proves absolute truth",
+        "after": "OMNIA-INVARIANCE proves semantic-truth authority",
+        "applied": [
+          {
+            "pattern": "\\babsolute\\s+truth\\b",
+            "replacement": "semantic-truth authority"
+          }
+        ]
+      }
+    ]
+  },
+  "tests": {
+    "status": "pass",
+    "passed": 8,
+    "failed": 0,
+    "returncode": 0,
+    "summary": "8 passed in 1.64s"
+  }
+}

@@ -527,7 +527,7 @@ This claim is bounded and testable.
 Avoid claiming:
 
 ```text
-OMNIA-INVARIANCE proves absolute truth
+OMNIA-INVARIANCE proves semantic-truth authority
 OMNIA-INVARIANCE replaces semantic evaluation
 OMNIA-INVARIANCE replaces validation
 OMNIA-INVARIANCE replaces human judgment
