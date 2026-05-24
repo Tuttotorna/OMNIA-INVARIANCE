@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "omnia-invariance"
-version = "0.1.1"
+version = "0.1.2"
 description = "Cross-domain invariance, perturbation geometry, and trajectory-space analysis layer for OMNIA."
 readme = "README.md"
 requires-python = ">=3.9"
