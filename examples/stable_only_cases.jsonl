@@ -1,0 +1,4 @@
+{"case_id":"stable_001","transform_id":"base","output":"pass"}
+{"case_id":"stable_001","transform_id":"rewrite","output":"pass"}
+{"case_id":"stable_002","transform_id":"base","output":"7"}
+{"case_id":"stable_002","transform_id":"spacing","output":" 7 "}

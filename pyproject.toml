@@ -40,3 +40,6 @@ include = ["omnia_invariance*"]
 [tool.ruff]
 target-version = "py310"
 line-length = 88
+
+[project.scripts]
+omnia-invariance-audit = "omnia_invariance_auditor.cli:main"

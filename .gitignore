@@ -5,3 +5,10 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+*.py[cod]
+ci_report/
+invariance_report/
+omnia_invariance_report/
+omnia_invariance_demo_report/
+omnia_invariance_gate_report/
+report/

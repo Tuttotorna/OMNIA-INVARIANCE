@@ -1,0 +1,12 @@
+{"case_id":"case_invariant_001","transform_id":"base","output":"approved","note":"reference output"}
+{"case_id":"case_invariant_001","transform_id":"paraphrase","output":"approved","note":"same output"}
+{"case_id":"case_invariant_001","transform_id":"order_swap","output":"approved","note":"same output"}
+{"case_id":"case_fragile_001","transform_id":"base","output":"refund approved within 5 business days","note":"reference"}
+{"case_id":"case_fragile_001","transform_id":"paraphrase","output":"refund approved in five business days","note":"minor structural drift"}
+{"case_id":"case_fragile_001","transform_id":"order_swap","output":"refund approved within 5 days","note":"still compatible"}
+{"case_id":"case_broken_001","transform_id":"base","output":"access denied","note":"reference"}
+{"case_id":"case_broken_001","transform_id":"paraphrase","output":"access granted","note":"opposite structural outcome"}
+{"case_id":"case_broken_001","transform_id":"order_swap","output":"account unlocked","note":"broken under transformation"}
+{"case_id":"case_invariant_002","transform_id":"base","output":"42","note":"numeric invariant"}
+{"case_id":"case_invariant_002","transform_id":"format_change","output":"42","note":"same number"}
+{"case_id":"case_invariant_002","transform_id":"spacing","output":" 42 ","note":"normalization keeps stable"}

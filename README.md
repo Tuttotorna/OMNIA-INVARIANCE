@@ -1,3 +1,184 @@
+<!-- OMNIA_INVARIANCE_AUDITOR_TOP_START -->
+
+# OMNIA-INVARIANCE
+
+## Concrete entrypoint: OMNIA Invariance Auditor
+
+This repository now has a direct operational tool:
+
+    python -m omnia_invariance_auditor.cli --input examples/sample_invariance_cases.jsonl --out-dir report
+
+It solves a concrete problem:
+
+    given cases, transformations, and measured outputs,
+    determine what remains invariant,
+    what becomes fragile,
+    and what breaks under transformation.
+
+In short:
+
+    cases + transformations -> invariant / fragile / broken report
+
+## What problem does it solve?
+
+A claim can appear stable in one representation and fail under equivalent or controlled transformations.
+
+OMNIA-INVARIANCE turns this into a reproducible measurement problem.
+
+It answers:
+
+    Which cases remain structurally invariant?
+    Which cases drift but remain recoverable?
+    Which cases break under transformation?
+    Which transformations cause the highest instability?
+    What is the invariance rate of the dataset?
+    Can CI fail when broken invariance appears?
+
+The rest of this repository explains the invariance concept.
+
+The auditor is the practical entrypoint.
+
+## Install
+
+Clone the repository:
+
+    git clone https://github.com/Tuttotorna/OMNIA-INVARIANCE.git
+    cd OMNIA-INVARIANCE
+
+Install locally:
+
+    pip install -e .
+
+The auditor only uses the Python standard library.
+
+## Run
+
+Run the sample audit:
+
+    python -m omnia_invariance_auditor.cli --input examples/sample_invariance_cases.jsonl --out-dir report
+
+Run and fail if broken invariance is detected:
+
+    python -m omnia_invariance_auditor.cli --input examples/sample_invariance_cases.jsonl --out-dir report --fail-on-broken
+
+Run and fail if fragile or broken cases are detected:
+
+    python -m omnia_invariance_auditor.cli --input examples/sample_invariance_cases.jsonl --out-dir report --fail-on-fragile
+
+## Input format
+
+The auditor accepts JSONL.
+
+Required fields:
+
+    case_id
+    transform_id
+    output
+
+Optional fields:
+
+    expected
+    source
+    note
+
+Example:
+
+    {"case_id":"c1","transform_id":"base","output":"A"}
+    {"case_id":"c1","transform_id":"rewrite","output":"A"}
+    {"case_id":"c1","transform_id":"order_swap","output":"B"}
+
+Classification rule:
+
+    invariant = all transformed outputs are structurally equivalent
+    fragile   = outputs differ but remain partially compatible
+    broken    = outputs differ beyond the configured compatibility threshold
+
+## Output
+
+The auditor writes:
+
+    report.json
+    report.csv
+    report.html
+    fragile_cases.jsonl
+    broken_cases.jsonl
+    certificate.json
+
+Meaning:
+
+    report.json
+    Full structured invariance analysis.
+
+    report.csv
+    Spreadsheet-friendly case summary.
+
+    report.html
+    Human-readable audit report.
+
+    fragile_cases.jsonl
+    One JSON object per fragile case.
+
+    broken_cases.jsonl
+    One JSON object per broken case.
+
+    certificate.json
+    Reproducibility certificate with thresholds, counts, and boundary statement.
+
+## CI gate
+
+Fail when broken invariance appears:
+
+    python -m omnia_invariance_auditor.cli --input examples/sample_invariance_cases.jsonl --out-dir report --fail-on-broken
+
+Fail when fragile or broken invariance appears:
+
+    python -m omnia_invariance_auditor.cli --input examples/sample_invariance_cases.jsonl --out-dir report --fail-on-fragile
+
+Exit codes:
+
+    0 = analysis completed without selected blocking condition
+    2 = fragile invariance detected under --fail-on-fragile
+    3 = broken invariance detected under --fail-on-broken or --fail-on-fragile
+    4 = invalid input or measurement error
+
+## What this is not
+
+This is not a semantic truth engine.
+
+It does not decide meaning.
+
+It does not decide whether an answer is true.
+
+It does not claim that transformations are semantically equivalent unless the dataset defines them as the test boundary.
+
+It provides one concrete, reproducible operation:
+
+    read transformed case outputs
+    normalize structural form
+    measure pairwise compatibility
+    classify invariant / fragile / broken
+    produce reports
+    optionally fail CI
+
+## Why the rest of the repository still matters
+
+The rest of the repository documents the invariance concept:
+
+    invariance under transformation
+    observer-independent stability
+    structural compatibility
+    perturbation response
+    fragile equivalence
+    broken equivalence
+
+The code above is the entrypoint.
+
+The repository below is the derivation path.
+
+<!-- OMNIA_INVARIANCE_AUDITOR_TOP_END -->
+
+---
+
 <!-- MB-X.01 LON RELEASE:START -->
 
 ## MB-X.01 / L.O.N. release state
