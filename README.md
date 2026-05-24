@@ -1,8 +1,11 @@
+# OMNIA-INVARIANCE
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20368998.svg)](https://doi.org/10.5281/zenodo.20368998)
+
 <!-- OMNIA_INVARIANCE_AUDITOR_TOP_START -->
 
 # OMNIA-INVARIANCE
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20368998.svg)](https://doi.org/10.5281/zenodo.20368998)
 
 ## Concrete entrypoint: OMNIA Invariance Auditor
 
@@ -217,7 +220,7 @@ Latest release DOI: 10.5281/zenodo.20322694
 
 ## DOI
 
-Release DOI: [10.5281/zenodo.19910638](https://doi.org/10.5281/zenodo.19910638)
+Release DOI: [10.5281/zenodo.20368998](https://doi.org/10.5281/zenodo.20368998)
 
 GitHub release: [OMNIA-INVARIANCE v1.0.0 release](https://github.com/Tuttotorna/OMNIA-INVARIANCE/releases/tag/v1.0.0)
 
