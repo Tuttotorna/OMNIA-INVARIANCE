@@ -2,6 +2,8 @@
 
 # OMNIA-INVARIANCE
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20368998.svg)](https://doi.org/10.5281/zenodo.20368998)
+
 ## Concrete entrypoint: OMNIA Invariance Auditor
 
 This repository now has a direct operational tool:
@@ -203,8 +205,6 @@ decision != measurement
 
 ## DOI
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281%2Fzenodo.20322694.svg)](https://doi.org/10.5281/zenodo.20322694)
-
 Zenodo DOI badge for this repository.
 
 Repository: Tuttotorna/OMNIA-INVARIANCE
@@ -216,8 +216,6 @@ Latest release DOI: 10.5281/zenodo.20322694
 
 
 ## DOI
-
-[![DOI](https://zenodo.org/badge/1224811295.svg)](https://zenodo.org/badge/latestdoi/1224811295)
 
 Release DOI: [10.5281/zenodo.19910638](https://doi.org/10.5281/zenodo.19910638)
 

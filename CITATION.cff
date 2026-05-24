@@ -3,6 +3,10 @@ message: "If you use OMNIA-INVARIANCE or OMNIA Invariance Auditor, please cite t
 title: "OMNIA-INVARIANCE: Structural Invariance Auditing Under Transformation"
 version: "0.1.2"
 date-released: "2026-05-24"
+doi: "10.5281/zenodo.20368998"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20368998"
 authors:
   - family-names: "Brighindi"
     given-names: "Massimiliano"
