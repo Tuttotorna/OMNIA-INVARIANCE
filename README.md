@@ -7,6 +7,25 @@
 # OMNIA-INVARIANCE
 
 
+
+## Foundational Principle
+
+OMNIA-INVARIANCE is an invariance-focused application of the L.O.N. Multi-Form Invariance Principle:
+
+> No single form is sovereign.
+
+In OMNIA-INVARIANCE, this becomes:
+
+> No invariant claim is sovereign unless it survives independent transformations.
+
+An invariant is not trusted because it appears stable once, under one representation, or inside one metric. It must preserve structural compatibility across independent transformations of form, scale, representation, context, and observation.
+
+OMNIA-INVARIANCE exists to distinguish surface stability from structural invariance.
+
+See:
+
+- https://github.com/Tuttotorna/lon-mirror/tree/main/foundation
+
 ## Concrete entrypoint: OMNIA Invariance Auditor
 
 This repository now has a direct operational tool:
