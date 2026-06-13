@@ -453,3 +453,30 @@ Role document:
 
 - [Structural Observability Role](docs/STRUCTURAL_OBSERVABILITY_ROLE.md)
 <!-- STRUCTURAL_OBSERVABILITY_ROLE_END -->
+
+<!-- OMNIA_ZENODO_CITATION_BLOCK_START -->
+
+## Citation and archival
+
+This repository is prepared for GitHub-Zenodo archival.
+
+Repository:
+https://github.com/Tuttotorna/OMNIA-INVARIANCE
+
+Latest GitHub release: v0.1.2 (https://github.com/Tuttotorna/OMNIA-INVARIANCE/releases/tag/v0.1.2)
+
+Detected Zenodo DOI(s):
+- https://doi.org/10.5281/zenodo.20368998
+- https://doi.org/10.5281/zenodo.20322694
+- https://doi.org/10.5281/zenodo.20379374
+
+Metadata files used for archival/citation:
+
+- .zenodo.json
+- CITATION.cff
+
+Zenodo note:
+
+GitHub-Zenodo archiving works after the repository is enabled in Zenodo GitHub settings and a GitHub release is created.
+
+<!-- OMNIA_ZENODO_CITATION_BLOCK_END -->
